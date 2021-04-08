@@ -14,10 +14,12 @@ def     selenideVersion = "5.20.1",
         aspectjweaver = "1.9.6"
 
 
+
 dependencies {
     testImplementation (
             "com.codeborne:selenide:$selenideVersion",
             "com.codeborne:selenide: 5.20.1",
+            "io.qameta.allure:allure-selenide:2.13.9",
             "org.slf4j:slf4j-simple:$slf4jVersion",
             "org.aspectj:aspectjweaver:$aspectjweaver",
             "com.github.javafaker:javafaker:1.0.2",
