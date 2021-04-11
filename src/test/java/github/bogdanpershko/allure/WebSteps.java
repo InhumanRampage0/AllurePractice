@@ -21,10 +21,12 @@ public class WebSteps {
         $(".header-search-input").sendKeys(repository);
         $(".header-search-input").submit();
     }
+
     @Step
     public void goToRepository(String repository) {
         $(By.linkText(repository)).click();
     }
+
     @Step
     public void clickForIssueTab(){
         $(withText("Issues")).click();
